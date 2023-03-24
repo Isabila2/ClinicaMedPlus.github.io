@@ -27,7 +27,7 @@
 	position: absolute;
 	left: 0px;
 	top: 110px;
-	background-image: url(imagem_principal.png);
+	background-image: url("https://github.com/Isabila2/ClinicaMedPlus.github.io/blob/main/images/imagem_principal.png?raw=true");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
