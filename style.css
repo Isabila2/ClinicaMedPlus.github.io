@@ -1570,3 +1570,77 @@ justify-content: center;
 
 
 
+
+
+
+
+
+
+
+
+
+/* Especialidades */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.botao{
+  height: 200px;
+  width: 50px;
+  margin-top: 5%;
+  margin-left: 16%;
+  
+  
+}
+
+select{
+  min-width: 3000%;
+  height: 40px;
+
+  
+}
+
+*{
+  margin-right: 0px;
+  margin-left: 0px;
+
+}
+
+#foto1{
+margin-left: 85%;
+
+}
+
+.foto{
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.topico{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.tudo{
+ padding: 0px;
+
+}
+
+/*#foto2{
+  margin-left: 90%;
+}
+
+.icone{
+  margin-left: 90%;
+  margin-
+
+}*/
+
+
+
+
+
+
