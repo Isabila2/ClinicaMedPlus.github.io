@@ -739,13 +739,6 @@ position:absolute;
 
 
 
-*{
-
-position: absolute;
-
-  left:18%;
-  
-}
 
 
 
@@ -1171,7 +1164,7 @@ html {
 	width: 376px;
 	height: 41px;
 	position: absolute;
-	top: 458px;
+	top: 450px;
 	font-family: Mate SC;
 	text-align: left;
 	font-size: 34px;
@@ -1557,12 +1550,9 @@ html {
 	background-size:cover;
 }
 
-*{
-justify-content: center;
 
 
 
-}
 
 .logo1{
   height: 100px;
@@ -1619,11 +1609,6 @@ select{
   
 }
 
-*{
-  margin-right: 0px;
-  margin-left: 0px;
-
-}
 
 #foto1{
 margin-left: 85%;
