@@ -597,23 +597,27 @@ html {
 }
 
 .e268_35 {
-	color: rgba(255, 255, 255, 1);
-	width: 300px;
-	height: 30px;
+	color: white;
+	background-color: #93D1FF;
+	width: 399px;
+	height: 57px;
 	position: absolute;
-	left: 750px;
-	top: 366px;
-	font-family: Inter;
-	text-align: left;
-	font-size: 20px;
-	letter-spacing: 0;
+	border-top-left-radius: 38px;
+	border-top-right-radius: 38px;
+	border-bottom-left-radius: 38px;
+	border-bottom-right-radius: 38px;
+	
 }
 
 .e268_36 {
 	color: rgba(32.00000189244747, 121.00000038743019, 176.00000470876694, 1);
-	width: 202px;
-	height: 20px;
+	width: 399px;
+	height: 57px;
 	position: absolute;
+	border-top-left-radius: 38px;
+	border-top-right-radius: 38px;
+	border-bottom-left-radius: 38px;
+	border-bottom-right-radius: 38px;
 	left: 850px;
 	top: 415px;
 	font-family: Magra;
