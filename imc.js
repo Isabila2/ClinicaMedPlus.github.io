@@ -21,13 +21,13 @@ function login(){
     
      for(var i = 0; i < usuarios.length; i++) {
       if(usuarios[0].email == user && usuarios[0].senha == senha){
-        alert("Login finalizado!")
+        //alert("Login finalizado!")
         window.location.href = "https://isabila2.github.io/ClinicaMedPlus.github.io/";
      }  if(usuarios[1].email == user && usuarios[1].senha == senha){
-        alert("Login finalizado!")
+        //alert("Login finalizado!")
         window.location.href = "https://isabila2.github.io/ClinicaMedPlus.github.io/";
     } if(usuarios[2].email == user && usuarios[2].senha == senha){
-        alert("Login finalizado!")
+        //alert("Login finalizado!")
         window.location.href = "https://isabila2.github.io/ClinicaMedPlus.github.io/";
 
         // if(usuarios[i].email == user && usuarios[i].senha == senha){
