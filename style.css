@@ -599,6 +599,7 @@ html {
 .e268_35 {
 	color: white;
 	background-color: #93D1FF;
+	font-size: 20px;
 	width: 399px;
 	height: 57px;
 	position: absolute;
@@ -606,7 +607,7 @@ html {
 	border-top-right-radius: 38px;
 	border-bottom-left-radius: 38px;
 	border-bottom-right-radius: 38px;
-	
+
 }
 
 .e268_36 {
