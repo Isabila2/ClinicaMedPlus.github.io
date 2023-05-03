@@ -681,7 +681,7 @@ html {
 	border-radius: 2px;
 }
 
-.268_42 {
+.e268_42 {
 	border: 0.5px solid rgba(0, 0, 0, 1);
 }
 
@@ -694,9 +694,7 @@ html {
 	top: 22px;
 }
 
-.268_43 {
-	border: 3px solid rgba(0, 0, 0, 1);
-}
+
 
 .e268_44 {
 	opacity: 0.75;
@@ -726,7 +724,7 @@ html {
 }
 
 .e297_156 {
-	text-color: rgba(33, 99, 140);
+	color: rgba(33, 99, 140);
 	width: 162px;
 	height: 24px;
 	position: absolute;
@@ -1299,7 +1297,7 @@ html {
 
 
 
-.157_82 {
+.e157_82 {
 	overflow: hidden;
 	border: 1px solid rgba(0, 0, 0, 1);
 }
@@ -1525,9 +1523,6 @@ html {
 	border-radius: 2px;
 }
 
-.157_97 {
-	border: 0.5px solid rgba(0, 0, 0, 1);
-}
 
 .e157_98 {
 	transform: rotate(180deg);
@@ -1538,9 +1533,7 @@ html {
 	top: 22px;
 }
 
-.157_98 {
-	border: 3px solid rgba(0, 0, 0, 1);
-}
+
 
 .e157_99 {
 	opacity: 0.75;
