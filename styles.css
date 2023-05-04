@@ -54,7 +54,7 @@
     }
     
     .agende{
-        background-image: url(assets/Fundohp.jfif);
+        background-image: url(images/Fundohp.jfif);
         height: 222px;
         width: 100%;
         background-color: #abc0ce;
@@ -149,7 +149,7 @@
     
     /* Inicio Rodapé */
     footer{
-        background-image: url(assets/fundocity.jpg);
+        background-image: url(images/fundocity.jpg);
         background-size: cover;
         filter: grayscale(85%);
         width: 100%;
