@@ -6,9 +6,6 @@
 }
     /* Inicio cabeçalho */
     header{
-        background-color: #fff;
-        padding: 1px;
-        display: flex;
         border-bottom: 10px solid #2079B0;
     }
 
