@@ -36,6 +36,7 @@
         width: 1200px;
         display: flex;
         justify-content: space-between;
+        padding: 10px;
         align-items: center;
     }
 /* Inicio Corpo */
