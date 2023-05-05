@@ -184,22 +184,23 @@
 	height: 123px;
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: -13px;
 	background-image: url(images/logo_removebg_preview_1.png);
-	background-repeat: no-repeat;
+	background-repeat:'' no-repeat;
 	background-size: cover;
 }
 
 .e201_87 {
 	background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
-	width: 1918px;
-	height: 923px;
-	position: absolute;
-	left: 0px;
-	top: 110px;
-	background-image: url(imagem_principal.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    width: 1942px;
+    height: 920px;
+    position: absolute;
+    left: 232px;
+    top: 110px;
+    margin-left: -236px;
+    background-image: url(myimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 101%;
 }
 
 .e201_78 {
@@ -305,20 +306,20 @@
 
 .e201_97 {
 	background-color: rgba(255, 255, 255, 1);
-	width: 386px;
-	height: 3px;
-	position: absolute;
-	left: 1300;
-	top: 536px;
+    width: 401px;
+    height: 3px;
+    position: absolute;
+    left: 1300;
+    top: 536px;
 }
 
 .e201_98 {
 	background-color: rgba(255, 255, 255, 1);
-	width: 386px;
-	height: 3px;
-	position: absolute;
-	left: 204.5px;
-	top: 539px;
+    width: 383px;
+    height: 3px;
+    position: absolute;
+    left: 207.5px;
+    top: 539px;
 }
 
 .e201_100 {
@@ -362,20 +363,20 @@
 
 .e228_21 {
 	background-color: rgba(32.00000189244747, 121.00000038743019, 176.00000470876694, 1);
-	width: 1918px;
-	height: 12px;
-	position: absolute;
-	left: 0px;
-	top: 1025px;
+    width: 1946px;
+    height: 12px;
+    position: absolute;
+    left: -4px;
+    top: 1025px;
 }
 
 .e228_29 {
 	background-color: rgba(32.00000189244747, 121.00000038743019, 176.00000470876694, 1);
-	width: 1918px;
-	height: 12px;
-	position: absolute;
-	left: -6px;
-	top: 98px;
+    width: 1920px;
+    height: 12px;
+    position: absolute;
+    left: -6px;
+    top: 98px;
 }
 
 .e395_64 {
