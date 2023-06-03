@@ -5,52 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="index.css">
     <title>Med+</title>
 </head>
 
 <body>
     <!-- Cabeçalho -->
-    <header style="display: flex; justify-content: center; align-items: center;">
-  <img src="images/Logoo.png" class="logoimg">
-  <div class="botao">
+    <header>
+        <div class="header">
+    
+    
+  
     <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Home</button></a>
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades"><button class="botoes">Exames</button></a>
   <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/consultas"><button class="botoes">Consultas</button></a>
   <a><button class="botoes">Cirurgias</button></a>
   <button class="botoes">Sobre nós</button>
+  <div class="topico">
+    <img src="images/logoespee.png" height="40%" width="300px" button id="botlogo" onclick="voltar()">
+        
+    
+            
+            <img src="images/iconesaida.png" height="80px" width="80px" id="foto2" button id="botlogo" onclick="voltar()">
+            <img src="images/iconelogin.png" height="80px" width="80px" id="foto3" button id="botlogo" onclick="login()">
 </div>
-  <div class="logincerto">
-    <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/login"><img src="images/iconelogin.png" class="imglogin"></a>
-  </div>
+</div>
+</div>
 </header>
+  
+
+
 
     <!-- Corpo -->
     <main>
+<!--carrossel-->
+<div class="slider"> 
 
-        <div class="agende">
-            <h3 class="textoagende">SAgende sua Consulta</h3>
-            <h3 class="precoa">Consultas apartir de R$90,00</h3>
-            <div class="retangulounidade"></div>
+    <div class="slides">
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+            <img src="images/homesel1.png" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="images/homesel2.png" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="images/homesel3.png" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="images/homesel4.png" alt="Imagem 4">
+        </div>
+
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+
+    </div>
+
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+</div>
 
         </div>
-        <!-- Aba Frases -->
-        <div class="abafrases">
-            <div class="quadrados" id="quadrado1">
-                <h2 class="textosfrases">Aqui tem</h2>
-                <h3 class="textosfrases">+ de 300 médicos</h3>
-            </div>
-            <div class="quadrados" id="quadrado2">
-                <h2 class="textosfrases">+ Atenção</h2>
-                <h3 class="textosfrases">Só pra você</h3>
-            </div>
-            <div class="quadrados" id="quadrado3">
-                <h2 class="textosfrases">MED+</h2>
-                <h3 class="textosfrases">Aqui cuidamos + de você</h3>
-            </div>
-
-        </div>
-        <div class="passoap">
+        </main>
+        <!--div class="passoap">
 
             <img src="images/passoap.png" class="imgpap">
             <button id="btn1"></button>
