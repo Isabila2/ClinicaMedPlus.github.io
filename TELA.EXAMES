@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exames.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <!--CABEÇALHO-->
+    <header>
+        <div class="header">
+            <div class="topico"><img src="Logoo.png" height="40%" width="300px">
+
+                <img src="Voltar.png" height="80px" width="80px" id="foto2">
+
+                <img src="Login.png" height="80px" width="80px" id="foto3">
+
+            </div>
+        </div>
+    </header>
+
+    <!--CORPO-->
+    <div class="container">
+        <img src="tela-central.png" alt="tela-central" class="Centro">
+    </div>
+
+    <div class="quadradao">
+        <div class="Quadrado1">
+            
+
+
+            <div class="Bloco1">
+                <h3 class="texto"> Clinico geral
+                </h3>
+            </div>
+
+
+            <div class="Bloco2">
+                <h1 class="texto"> Cardiologia
+                </h1>
+            </div>
+
+
+            <div class="Bloco3">
+                <h1 class="texto"> Neurologia
+                </h1>
+            </div>
+
+            <div class="Bloco4">
+                <h1 class="texto"> Ginecologista
+                </h1>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div id="Quadrado2">
+
+
+            <div class="Bloco5">
+                <h3 class="texto"> Clinico geral
+                </h3>
+            </div>
+
+
+            <div class="Bloco6">
+                <h1 class="texto"> Cardiologia
+                </h1>
+            </div>
+
+
+            <div class="Bloco7">
+                <h1 class="texto"> Neurologia
+                </h1>
+            </div>
+
+            <div class="Bloco8">
+                <h1 class="texto"> Ginecologista
+                </h1>
+            </div>
+
+        </div>
+
+        <div id="quadrado3">
+
+            <div class="Bloco9">
+                <h3 class="texto"> Clinico geral
+                </h3>
+            </div>
+
+
+            <div class="Bloco10">
+                <h1 class="texto"> Cardiologia
+                </h1>
+            </div>
+
+
+            <div class="Bloco11">
+                <h1 class="texto"> Neurologia
+                </h1>
+            </div>
+
+            <div class="Bloco12">
+                <h1 class="texto"> Ginecologista
+                </h1>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
