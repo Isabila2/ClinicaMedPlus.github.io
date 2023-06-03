@@ -116,8 +116,6 @@
 
 
 
-
-
         </div>
 
 
@@ -127,3 +125,220 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+CSS:
+
+
+
+
+
+#foto2 {
+  padding-left: 75%;
+}
+
+.container {
+  align-items: center;
+
+}
+
+.Centro {
+  width: 110%;
+
+}
+
+.Bloco1 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  text-align: center;
+  align-content: center;
+
+}
+
+.Bloco2 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 300px;
+}
+
+
+.Bloco3 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 600px;
+}
+
+
+.Bloco4 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 600px;
+
+
+}
+
+
+.Bloco5 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 800px;
+
+
+}
+
+
+.Quadrado1 {}
+
+#Quadrado2 {
+  padding: 0px 360px;
+}
+
+.Bloco6 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+.Bloco7 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 300px;
+}
+
+
+.Bloco8 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 600px;
+}
+
+
+.Bloco9 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 600px;
+
+
+}
+
+
+.Bloco10 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 800px;
+
+
+}
+
+
+
+
+
+.Bloco11 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 800px;
+}
+
+.Bloco12 {
+  background-color: #E7E7E7;
+  border-radius: 15px 15px 15px 15px;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  right: 800px;
+}
+
+
+
+.texto {
+  color: #2079b0;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+
+.quadradao {
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
