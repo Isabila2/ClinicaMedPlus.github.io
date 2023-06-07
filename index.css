@@ -1,4 +1,6 @@
-
+* {
+  border: 1px solid rgba(255, 0, 0, 0);
+}
 #foto2 {
 	margin-left: 0%;
     
@@ -16,6 +18,8 @@
 .topico {
 	padding: 0px;
 	margin-bottom: 0px;
+  display: flex;
+  align-items: center;
 
 }
 .slider{
@@ -23,6 +27,7 @@
     width: 400%;
     height: 800px;
     overflow: hidden;
+    margin-top: 30px;
   }
   
   .slides{
@@ -49,7 +54,7 @@
   .manual-navigation{
     position: absolute;
     width: 980px;
-    margin-top: 420px;
+    margin-top: 340px;
     display: flex;
     justify-content: center;
     margin-left: 23%;
@@ -104,7 +109,7 @@
   .navigation-auto{
     position: absolute;
     width: 980px;
-    margin-top: 770px;
+    margin-top: 690px;
     display: flex;
     justify-content: center;
     margin-left: 23%;
@@ -143,9 +148,7 @@
     font-family: Mate SC;
 }
     /* Inicio cabeçalho */
-    header{
-  
-    }
+    
 
     #foto2 {
       margin-left: 28%;
@@ -182,7 +185,7 @@
         width: 120px;
         font-family: Mate SC;
         font-size: larger;
-        margin-bottom: 2%;
+        margin-bottom: 10%;
         
      
        
@@ -255,16 +258,18 @@
 
 
 
-    
+main{
+  height: 1100px;
+}
     
     /* Inicio Rodapé */
     footer{
       margin-top: 50%;
-        background-image: url(images/fundocity.jpg);
+        background-image: url(images/imgfooter.png);
         background-size: cover;
-        filter: grayscale(85%);
+        
         width: 100%;
-        height: 200px;
+        height: 600px;
         
     }
 
@@ -275,4 +280,75 @@
     position: absolute;
     bottom: 1%;
     
+}
+
+.meio{
+  height:500px;
+  background-color: #B5DDFC;
+  width: 100%;
+  align-items: center;
+}
+
+#exp1{
+  width: 380px;
+  height: 380px;
+  margin-left: 80px;
+}
+#exp1:hover{
+  transform: scale(1.1);
+    transition: all 0.5s;
+}
+#exp2{
+  width: 380px;
+  height: 380px;
+  margin-left: 60px;
+}
+#exp2:hover{
+  transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#exp3{
+  width: 380px;
+  height: 380px;
+  margin-left: 60px;
+}
+#exp3:hover{
+  transform: scale(1.1);
+    transition: all 0.5s;
+}
+#exp4{
+  width: 380px;
+  height: 380px;
+  margin-left: 60px;
+}
+#exp4:hover{
+  transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#bemvindo{
+  margin-left: 660px;
+}
+
+.botone{
+    background-color: #92D1FF; 
+    border-radius: 5px ;
+    border: 2px;
+    width: 300px;
+    height: 45px;
+    box-shadow:2px 3px #466f8b;
+    margin-top: 10px;
+    margin-left: 770px;
+    font-family: Mate SC;
+    font-size: larger;
+}
+
+.botone:hover{
+    transform: scale(1.4);
+    transition: all 0.5s;
+}
+
+#encontre{
+  margin-left: 700px;
 }

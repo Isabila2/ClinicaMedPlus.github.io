@@ -20,12 +20,15 @@
                 
         
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Home</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades"><button class="botoes">Exames</button></a>
+<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Exames</button></a>
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/consultas"><button class="botoes">Consultas</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/consulta"><button class="botoes">Cirurgias</button></a>
+<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Cirurgias</button></a>
+<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Planos</button></a>
 <img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="login()">
 </div>
 </header>
+
+
   
 
 
@@ -39,6 +42,26 @@ function voltar(){event.preventDefault();
     window.location.href="";
 
   }
+
+  //Carrossel//
+
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+    nextImage();
+}, 1000)
+
+function nextImage(){
+    count++;
+    if(count>4){
+        count = 1;
+    }
+
+    document.getElementById("radio"+count).checked = true;
+} 
+
+
 </script>
     <!-- Corpo -->
     <main>
@@ -83,27 +106,33 @@ function voltar(){event.preventDefault();
 
 </div>
 
-        </div>
+       <img src="images/bemvindo.png" id="bemvindo">
+       <img src="images/encontre.png" id="encontre">
+       <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades.html"><button class="botone">Especialidades</button></a>
         </main>
-        <!--div class="passoap">
+        
+      <!--meio-->
+      
+            <div class="meio">
+              <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades.html">  <img  src="images/exp1.png" id="exp1" > </a>
+                <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/consultas.html" ><img src="images/exp2.png" id="exp2"></a>
+                <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/login"><img src="images/exp3.png" id="exp3"></a>
+                <a href=""><img src="images/exp4.png" id="exp4"></a>
+            </div>
 
-            <img src="images/passoap.png" class="imgpap">
-            <button id="btn1"></button>
-
-        </div>
-        </div>
-    </main>
-    <!-- Rodapé contatos -->
-    <footer>
-        <div class="letrasfinais">
-            <h2>(19)99378-4877</h2>
-            <h2>Localize a MED mais próxima</h2>
-            <h2 id="direitos">© 2023 Clínica MED+. Todos os Direitos Reservados.</h2>
-        </div>
-    </footer>
+    
+   
+   
 </body>
-<<<<<<< HEAD
+<footer>
+    <br>
+    <div class="sobrenos">
+   
+</div>
+      <div class="rodape">
+        
+    </div>
+</footer>
 
 </html>
-=======
->>>>>>> 99980abd917ccc4b0a26d5d4e40603b76012589d
+
