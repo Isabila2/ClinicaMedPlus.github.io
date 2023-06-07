@@ -199,21 +199,21 @@ footer {
 	left: 0px;
 	top: -13px;
 	background-image: url(images/logo_removebg_preview_1.png);
-	background-repeat:'' no-repeat;
+	background-repeat: '' no-repeat;
 	background-size: cover;
 }
 
 .e201_87 {
 	background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
-    width: 1942px;
-    height: 920px;
-    position: absolute;
-    left: 232px;
-    top: 110px;
-    margin-left: -236px;
-    background-image: url(myimage.jpg);
-    background-repeat: no-repeat;
-    background-size: 101%;
+	width: 1942px;
+	height: 920px;
+	position: absolute;
+	left: 232px;
+	top: 110px;
+	margin-left: -236px;
+	background-image: url(myimage.jpg);
+	background-repeat: no-repeat;
+	background-size: 101%;
 }
 
 .e201_78 {
@@ -319,20 +319,20 @@ footer {
 
 .e201_97 {
 	background-color: rgba(255, 255, 255, 1);
-    width: 401px;
-    height: 3px;
-    position: absolute;
-    left: 1300;
-    top: 536px;
+	width: 401px;
+	height: 3px;
+	position: absolute;
+	left: 1300;
+	top: 536px;
 }
 
 .e201_98 {
 	background-color: rgba(255, 255, 255, 1);
-    width: 383px;
-    height: 3px;
-    position: absolute;
-    left: 207.5px;
-    top: 539px;
+	width: 383px;
+	height: 3px;
+	position: absolute;
+	left: 207.5px;
+	top: 539px;
 }
 
 .e201_100 {
@@ -376,20 +376,20 @@ footer {
 
 .e228_21 {
 	background-color: rgba(32.00000189244747, 121.00000038743019, 176.00000470876694, 1);
-    width: 1946px;
-    height: 12px;
-    position: absolute;
-    left: -4px;
-    top: 1025px;
+	width: 1946px;
+	height: 12px;
+	position: absolute;
+	left: -4px;
+	top: 1025px;
 }
 
 .e228_29 {
 	background-color: rgba(32.00000189244747, 121.00000038743019, 176.00000470876694, 1);
-    width: 1920px;
-    height: 12px;
-    position: absolute;
-    left: -6px;
-    top: 98px;
+	width: 1920px;
+	height: 12px;
+	position: absolute;
+	left: -6px;
+	top: 98px;
 }
 
 .e395_64 {
@@ -779,7 +779,7 @@ html {
 
 
 
-/* Consultas */
+/* Consultas (Médico) */
 
 
 html {
@@ -1286,11 +1286,426 @@ html {
 	width: 500px;
 }
 
+/* Consultas (Paciente) */
 
 
+.e975_213 {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: rgba(255, 255, 255, 0.7200000286102295);
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+}
 
+.e975_214 {
+	color: rgba(255, 255, 255, 1);
+	width: 398px;
+	height: 41px;
+	position: absolute;
+	left: 26px;
+	top: 550px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
 
+.e975_215 {
+	color: rgba(0, 0, 0, 1);
+	width: 316px;
+	height: 24px;
+	position: absolute;
+	left: -1377px;
+	top: 263px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 20px;
+	letter-spacing: 0;
+}
 
+.e975_216 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 330px;
+}
+
+.e975_217 {
+	color: rgba(255, 255, 255, 1);
+	width: 732px;
+	height: 51px;
+	position: absolute;
+	left: 2px;
+	top: 342px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_218 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 216px;
+}
+
+.e975_219 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 443px;
+}
+
+.e975_220 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 544px;
+}
+
+.e975_221 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 669px;
+}
+
+.e975_222 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 791px;
+}
+
+.e975_223 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 903px;
+}
+
+.e975_224 {
+	background-color: rgba(123.25000405311584, 199.6649980545044, 255, 1);
+	width: 1920px;
+	height: 66px;
+	position: absolute;
+	left: 0px;
+	top: 1014px;
+}
+
+.e975_225 {
+	color: rgba(255, 255, 255, 1);
+	width: 874px;
+	height: 51px;
+	position: absolute;
+	left: 0px;
+	top: 458px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_226 {
+	color: rgba(255, 255, 255, 1);
+	width: 782px;
+	height: 51px;
+	position: absolute;
+	left: 0px;
+	top: 561px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_227 {
+	color: rgba(255, 255, 255, 1);
+	width: 732px;
+	height: 51px;
+	position: absolute;
+	left: 2px;
+	top: 682px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_228 {
+	color: rgba(255, 255, 255, 1);
+	width: 732px;
+	height: 51px;
+	position: absolute;
+	left: 0px;
+	top: 801px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_229 {
+	color: rgba(255, 255, 255, 1);
+	width: 732px;
+	height: 51px;
+	position: absolute;
+	left: 2px;
+	top: 914px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_230 {
+	color: rgba(255, 255, 255, 1);
+	width: 841px;
+	height: 51px;
+	position: absolute;
+	left: -3px;
+	top: 1023px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_231 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 342px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_232 {
+	color: rgba(255, 255, 255, 1);
+	width: 732px;
+	height: 51px;
+	position: absolute;
+	left: 2px;
+	top: 224px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_233 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 224px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_234 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 458px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_235 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 556px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_236 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 681px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_237 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 802px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_238 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 913px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_239 {
+	color: rgba(2.302083671092987, 86.24816715717316, 138.1250050663948, 1);
+	width: 346px;
+	height: 51px;
+	position: absolute;
+	left: 874px;
+	top: 1023px;
+	font-family: Open Sans Hebrew;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_240 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 861px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_241 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: -3px;
+	top: 742px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_242 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 971px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_243 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 1094px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_244 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 287px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_245 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 400px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_246 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 509px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
+
+.e975_247 {
+	color: rgba(0, 0, 0, 1);
+	width: 276px;
+	height: 44px;
+	position: absolute;
+	left: 2px;
+	top: 618px;
+	font-family: Mate SC;
+	text-align: left;
+	font-size: 34px;
+	letter-spacing: 0;
+}
 
 
 
@@ -1603,6 +2018,8 @@ html {
 .logo1 {
 	height: 100px;
 	width: 350px;
+	left: 374px;
+	top: 414px;
 
 
 }
