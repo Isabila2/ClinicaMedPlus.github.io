@@ -283,7 +283,7 @@ main{
 }
 
 .meio{
-  height:500px;
+  height:600px;
   background-color: #B5DDFC;
   width: 100%;
   align-items: center;
@@ -291,8 +291,9 @@ main{
 
 #exp1{
   width: 380px;
-  height: 380px;
+  height: 290px;
   margin-left: 80px;
+  margin-top: 90px;
 }
 #exp1:hover{
   transform: scale(1.1);
@@ -300,7 +301,7 @@ main{
 }
 #exp2{
   width: 380px;
-  height: 380px;
+  height: 290px;
   margin-left: 60px;
 }
 #exp2:hover{
@@ -310,7 +311,7 @@ main{
 
 #exp3{
   width: 380px;
-  height: 380px;
+  height: 290px;
   margin-left: 60px;
 }
 #exp3:hover{
@@ -319,7 +320,7 @@ main{
 }
 #exp4{
   width: 380px;
-  height: 380px;
+  height: 290px;
   margin-left: 60px;
 }
 #exp4:hover{
@@ -351,4 +352,15 @@ main{
 
 #encontre{
   margin-left: 700px;
+ 
+}
+
+.guia{
+  color: #ffffff;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+  font-style: oblique;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
