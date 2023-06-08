@@ -291,7 +291,7 @@ main{
 
 #exp1{
   width: 380px;
-  height: 270px;
+  height: 250px;
   margin-left: 80px;
   margin-top: 90px;
 }
@@ -301,7 +301,7 @@ main{
 }
 #exp2{
   width: 380px;
-  height: 270px;
+  height: 250px;
   margin-left: 60px;
 }
 #exp2:hover{
@@ -311,7 +311,7 @@ main{
 
 #exp3{
   width: 380px;
-  height: 270px;
+  height: 250px;
   margin-left: 60px;
 }
 #exp3:hover{
@@ -320,7 +320,7 @@ main{
 }
 #exp4{
   width: 380px;
-  height: 270px;
+  height: 250px;
   margin-left: 60px;
 }
 #exp4:hover{
@@ -357,11 +357,11 @@ main{
 
 .guia{
   color: #ffffff;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   margin-top: 40px;
   font-style: oblique;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -373,4 +373,112 @@ header{
   width: 100%;
     height: 10%;
     
+}
+
+.unidades{
+  height:550px;
+  width: 100%;
+  padding: 0px;
+	margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  background-color: #2079b000;
+
+}
+
+.titulouni{
+  color: #2079B0;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 60px;
+  font-style: oblique;
+  font-family:Mate SC;
+  background-color: #2079b000;
+
+}
+.card{
+  width: 450px;
+  height: 500px;
+  background-color: #2079B0;
+  border-radius: 15px;
+  margin-left: 70px;
+  margin-top: -0%;
+}
+.card2{
+  width: 450px;
+  height: 500px;
+  background-color: #2079B0;
+  border-radius: 15px;
+  margin-left: 300px;
+  margin-top: 0%;
+  
+}
+
+#uni1{
+  height: 300px;
+  width: 445px;
+  border-radius: 15px;
+  margin-left: 1px;
+}
+
+#uni2{
+  height: 300px;
+  width: 445px;
+  border-radius: 15px;
+  margin-left: 1px;
+}
+#tituni{
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0px;
+  font-style: oblique;
+  font-family:Mate SC;
+}
+#textuni{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 9px;
+  font-style: oblique;
+  font-family:Verdana;
+}
+
+#decouni2{
+  margin-top: 320px;
+  width: 250px;
+  margin-left: 90px;
+}
+
+#decouni1{
+  margin-bottom: 470px;
+  width: 250px;
+}
+.butuni{
+border-radius: 20px ;
+border: 2px;
+width: 200px;
+height: 50px;
+box-shadow:5px 5px #4b93ca;
+margin-top: 10px;
+margin-left: 125px;
+font-family: Verdana;
+font-size: 22px;
+background-color: #92D1FF;
+color:#ffffff;
+
+}
+
+
+.butuni:hover{
+  background-color: #B5DDFC;
+  box-shadow: #171d20;
+}
+
+#coracao{
+  margin-top: 20px;
+}
+.deco{
+  background-color: #C4E6FF;
+  height: 600px;
 }
