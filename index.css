@@ -1,5 +1,5 @@
 * {
-  border: 1px solid rgba(255, 0, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
 }
 #foto2 {
 	margin-left: 0%;
@@ -283,7 +283,7 @@ main{
 }
 
 .meio{
-  height:600px;
+  height:650px;
   background-color: #B5DDFC;
   width: 100%;
   align-items: center;
@@ -293,7 +293,7 @@ main{
   width: 380px;
   height: 250px;
   margin-left: 80px;
-  margin-top: 90px;
+  margin-top: 100px;
 }
 #exp1:hover{
   transform: scale(1.1);
@@ -476,12 +476,18 @@ color:#ffffff;
 }
 
 #coracao{
-  margin-top: 20px;
-}
-.deco{
-  background-color: #C4E6FF;
+  margin-top: 30px;
   height: 600px;
 }
-#decote{
-  font-size: 300px;
+.deco{
+  background-color: #ffffff;
+  height: 650px;
+}
+#decora{
+ margin-left: 200px;
+ width: 800px;
+ height: 200px;
+ margin-bottom: 400px;
+
+  
 }
