@@ -1,5 +1,5 @@
 * {
-  border: 1px solid rgba(255, 0, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
 }
 #foto2 {
 	margin-left: 0%;
@@ -525,12 +525,15 @@ font-size: 22px;
 background-color: #92D1FF;
 color:#ffffff;
 
+
 }
 
 
 .butuni:hover{
   background-color: #B5DDFC;
   box-shadow: #171d20;
+
+
 }
 
 #coracao{
@@ -549,23 +552,23 @@ width: 68%;
 height: 400px;
 }
 #pla1{
-  width: 265px;
+  width: 275px;
   height: 199px;
   margin-bottom: 300px;
   margin-left: 100px;
 }
 #pla2{
-  width: 265px;
+  width: 275px;
   height: 190px;
   margin-bottom: 100px;
-  margin-left: -270px;
+  margin-left: -280px;
 
 }
 #pla3{
-  width: 265px;
+  width: 275px;
   height: 180px;
   margin-bottom: -90px;
-  margin-left: -270px;
+  margin-left: -280px;
 }
 #pla1:hover{
   transform: scale(1.1);
@@ -612,4 +615,18 @@ height: 400px;
 #baixe2:hover{
   transform: scale(1.1);
   transition: all 0.5s;
+}
+
+.blur img
+{
+        transition: 1s ease;
+}
+.blur img:hover 
+{
+        -xpedu-filter: blur(5px);
+        transition: 1s ease;
+}
+
+.data-anime{
+  opacity: 0;
 }
