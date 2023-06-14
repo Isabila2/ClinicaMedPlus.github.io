@@ -12,25 +12,41 @@
     }
 
     .box {
-        background-color: aliceblue;
+        background-color: rgb(255, 255, 255);
         width: 330px;
     }
     fieldset {
-        border: 3px solid #2079B0;
+        border: 3px solid #ffffff;
         height: 649px;
     }
 
     #logo {
-        width: 300px;
-        height: 75px;
+        width: 450px;
+        height: 140px;
+        margin-left: 10px;
     }
 
+   
     #submit {
-        width: 300px;
-        height: 50px;
-        border-radius: 15px;
         background-color: #93D1FF;
-        margin-top: 50px;
+        border-radius: 40px;
+        border-color: #ffffff;
+        height: 50px;
+        width: 160px;
+        font-family: Mate SC;
+        font-size: larger;
+        margin-left: 120px;
+        
+        
+    }
+       
+
+    #submit:hover{
+      background-color: #93D1FF;
+      box-shadow: 5px 2px #4b93ca;
+      transform: scale(1.1);
+      transition: all 0.5s;
+      
     }
 
     .crie {
@@ -38,7 +54,27 @@
         color: #93D1FF;
         margin-top: 139px;
     }
-    
+    #email{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid #a8a8a9;
+    }
+
+    #senha{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border:1px solid #a8a8a9 ;
+
+    }
+
+    #voltar{
+        margin-left: -50px;
+        
+    }
 </style>
 <script>
     // Exemplo de arquivo JSON com usuários e senhas
@@ -58,7 +94,7 @@
       if (users.hasOwnProperty(username) && users[username] === password) {
         // Login bem-sucedido
         alert("Login bem-sucedido!");
-        window.open('https://isabila2.github.io/ClinicaMedPlus.github.io/homemedico.html')
+        window.open('https://isabila2.github.io/ClinicaMedPlus.github.io/homemedico.html', 'popup', 'width=1280px,height=10')
         // Redirecionar para a página principal, por exemplo:
         window.close;
       } else {
@@ -85,7 +121,7 @@
           <br>
           <br>
           <div class="inputbox">
-            <input type="text" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
+            <input type="password" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
             <label for="senha"></label>
           </div>
           <br>
@@ -103,7 +139,7 @@
           <br>
           <br>
           <div class="crie">
-            <a href="/formulario.html">Voltar</a>
+            <a href="/formulario.html" id="voltar">Voltar</a>
           </div>
         </fieldset>
       </form>

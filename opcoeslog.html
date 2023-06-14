@@ -12,33 +12,46 @@
     }
 
     .box {
-        background-color: aliceblue;
-        width: 330px;
+        background-color: rgb(251, 251, 251);
+        width: 320px;
     }
     fieldset {
-        border: 3px solid #2079B0;
-        height: 649px;
+        border: 3px solid #ffffff;
+        margin-left: 10px;
     }
 
     #logo {
-        width: 300px;
-        height: 75px;
+        width: 470px;
+        height: 170px;
     }
 
-    #submit {
-        width: 300px;
-        height: 50px;
-        border-radius: 15px;
-        background-color: #93D1FF;
-        margin-top: 50px;
-    }
+    
+    
+#text{
+    margin-bottom: 20px;
+    font-size: 23px;
+    margin-left: 100px;
+}
 
-    .crie {
-        text-align: center;
-        color: #93D1FF;
-        margin-top: 139px;
+#medico{
+    margin-left: 100px;
+}
+
+
+    #medit{
+        font-size: 18px;
+        
     }
     
+    #pacit{
+        font-size: 18px;
+    }
+    #paciente{
+        margin-left: 70px;
+    }
+    .opcoe{
+        margin-top: -40px;
+    }
 </style>
 <script>
     // Exemplo de arquivo JSON com usuários e senhas
@@ -80,19 +93,19 @@ function logpaciente(){
     <div class="box">
       <form action="">
         <fieldset class="barraemvolta">
-          <img src="/assets/Logoo.png" alt="" id="logo">
+          <img src="images/logo_removebg_preview_1.png" alt="" id="logo">
           <br>
           <br>
   
           
-          
-          <p>Selecione seu tipo de conta</p>
+          <div class="opcoe">
+          <p id="text">Selecione seu tipo de conta</p>
           <input type="radio" id="medico" name="conta" value="medico" onclick="logmedico()" required>
-          <label for="medico">Médico</label>
+          <label id="medit" for="medico">Médico</label>
           
           <input type="radio" id="paciente" name="conta" value="paciente" onclick="logpaciente()" required>
-          <label for="paciente">Paciente</label>
-        
+          <label id="pacit" for="paciente">Paciente</label>
+        </div>
   
         
           
