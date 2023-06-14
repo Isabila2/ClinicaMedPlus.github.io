@@ -26,7 +26,7 @@
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="botoes">Consultas</button></a>
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/cirurgia.html"><button class="botoes">Cirurgias</button></a>
 <a href="#planos"><button class="botoes">Planos</button></a>
-<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="login()">
+<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="OpenPopUp()">
 </div>
 </header>
 <br>
@@ -68,7 +68,9 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 } 
 
-
+function OpenPopUp(){
+    window.open('opcoeslog.html', 'popup','width=310,height=570');
+}
 
 </script>
     <!-- Corpo -->

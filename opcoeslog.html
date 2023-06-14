@@ -65,7 +65,14 @@
         alert("Usuário ou senha inválidos.");
       }
     }
+function logmedico(){
+    window.location="https://isabila2.github.io/ClinicaMedPlus.github.io/loginmed.html"
 
+}
+function logpaciente(){
+    window.location="https://isabila2.github.io/ClinicaMedPlus.github.io/login.html"
+
+}
     
   </script>
   
@@ -77,33 +84,19 @@
           <br>
           <br>
   
-          <div class="inputbox">
-            <input type="email" name="email" id="email" placeholder="Email" class="inputUser" required>
-            <label for="email"></label>
-          </div>
-          <br>
-          <br>
-          <div class="inputbox">
-            <input type="text" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
-            <label for="senha"></label>
-          </div>
-          <br>
-          <br>
-         
+          
+          
+          <p>Selecione seu tipo de conta</p>
+          <input type="radio" id="medico" name="conta" value="medico" onclick="logmedico()" required>
+          <label for="medico">Médico</label>
+          
+          <input type="radio" id="paciente" name="conta" value="paciente" onclick="logpaciente()" required>
+          <label for="paciente">Paciente</label>
+        
   
-          <div class="inputbox">
-            <input type="checkbox" name="manter" id="manter" class="manter">
-            <label for="manter"><b>Manter-se conectado</b></label>
-          </div>
-          <br>
-          <br>
-  
-          <input type="button" name="submit" id="submit" onclick="login()" value="Entrar">
-          <br>
-          <br>
-          <div class="crie">
-            <a href="/formulario.html">Crie uma conta</a>
-          </div>
+        
+          
+        
         </fieldset>
       </form>
     </div>

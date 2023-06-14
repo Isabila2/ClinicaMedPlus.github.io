@@ -43,9 +43,9 @@
 <script>
     // Exemplo de arquivo JSON com usuários e senhas
     const users = {
-      "paulo@gmail.com": "202020",
-      "isabella@gmail.com": "303030",
-      "joaovictor@gmail.com": "404040"
+      "alvaresbarreto@gmail.com": "202020",
+      "allinebarros@gmail.com": "303030",
+      "fernandahira@gmail.com": "404040"
     };
   
     // Função de login
@@ -58,6 +58,7 @@
       if (users.hasOwnProperty(username) && users[username] === password) {
         // Login bem-sucedido
         alert("Login bem-sucedido!");
+        window.location="https://isabila2.github.io/ClinicaMedPlus.github.io/homemedico.html"
         // Redirecionar para a página principal, por exemplo:
         window.close;
       } else {
@@ -73,7 +74,7 @@
     <div class="box">
       <form action="">
         <fieldset class="barraemvolta">
-          <img src="/assets/Logoo.png" alt="" id="logo">
+          <img src="images/logo_removebg_preview_1.png" alt="" id="logo">
           <br>
           <br>
   
@@ -102,7 +103,7 @@
           <br>
           <br>
           <div class="crie">
-            <a href="/formulario.html">Crie uma conta</a>
+            <a href="/formulario.html">Voltar</a>
           </div>
         </fieldset>
       </form>
