@@ -1305,42 +1305,60 @@ button {
 	letter-spacing: 0;
 }
 
-.imglogos {
-	align-items: top;
-	position: absolute;
-	margin-left: 1500px;
-	z-index: 10;
-	width: 300px;
-
-
-}
-
-.abcde {
-	align-items: top;
-	position: absolute;
-	margin-right: 1500px;
-	z-index: 10;
-	width: 500px;
-}
 
 /* Consultas (Paciente) */
 
-.imglogos2 {
-	align-items: top;
-	position: absolute;
-	margin-left: 1500px;
-	z-index: 10;
-	width: 300px;
-
-
+#foto2 {
+	margin-left: 28%;
 }
 
-.abcde2 {
-	align-items: top;
-	position: absolute;
-	margin-right: 1500px;
-	z-index: 10;
-	width: 500px;
+#foto2:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
+#botlogo {
+	height: 80px;
+}
+
+.topico {
+	padding: 0%;
+	margin-bottom: 0px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logincerto {
+	align-content: center;
+}
+
+
+.botoes {
+	background-color: #93D1FF;
+	border-radius: 40px;
+	border-color: #ffffff ;
+	height: 50px;
+	width: 120px;
+	font-family: Mate SC;
+	font-size: large;
+	margin-bottom: 10%;
+}
+
+.botoes:hover {
+	background-color: #93D1FF;
+	box-shadow: 5px 2px #4b93ca;
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
+.botao {
+	width: 600px;
+	justify-content: space-between;
+	padding: 15px;
+	padding-left: 10px;
+	align-items: center;
 }
 
 .b1 {
