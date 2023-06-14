@@ -52,14 +52,14 @@ function voltar(){event.preventDefault();
 
   }
 
-  //Carrossel//
+//Carrossel//
 
 let count = 1;
 document.getElementById("radio1").checked = true;
 
 setInterval( function(){
     nextImage();
-}, 1000)
+}, 5000)
 
 function nextImage(){
     count++;
@@ -67,9 +67,8 @@ function nextImage(){
         count = 1;
     }
 
-    document.getElementById("radio"+count).checked = true;
+    document.getElementById("radio4"+count).checked = true;
 } 
-
 
 
 </script>
