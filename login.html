@@ -1,109 +1,135 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Login-MedPlus</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="j.js"></script>
-  </head>
-  <body>
-  
-    <div class="e268_27">
-      <img src="https://github.com/Isabila2/ClinicaMedPlus.github.io/blob/main/images/Logoo.png?raw=true" class="logo1">
-    </div>
-  
-    <div class="e268_28"></div>
-    <form>
-      <div class="e268_29">
-        <input type="text" id="user" placeholder="Médico" />
-      </div>
-      <div class="e268_30">
-        <input type="password" id="senha" placeholder="Senha" />
-      </div>
-      <div class="e268_31">
-        <input type="submit" value="Entrar" onclick="login(); return false">
-      </div>
-    </form>
-    <div class="e268_32">
-      
-    </div>
-    <span class="e268_36"><a href="#">ESQUECI A SENHA</a></span>
-    <span class="e268_37"><a href="#">CRIE UMA CONTA</a></span>
-    <span class="e268_38">OU ENTRE COM</span>
-    <span class="e268_39">Manter-se conectado?</span>
-    <div class="e268_40"></div>
-    <span class="e268_41">GOOGLE</span>
-    <span class="e268_37"><a href="#">CRIE UMA CONTA</a></span>
-    <div class="e268_42"></div>
-    
-    <div class="e268_44"></div>
-    <div class="e268_45"></div>
-    <div class="e297_156"></div>
-    <script>
-      function login() {
-        var usuario = document.getElementById("user").value;
-        var senha = document.getElementById("senha").value;
-        var usuarios = [
-          {"usuario": "JAO", "senha": "1234"},
-          {"usuario": "TETE", "senha": "5678"},
-          {"usuario": "TETUNES", "senha": "9101"}
-        ];
-
-<<<<<<< HEAD
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Login-MedPlus</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="forms.css">
 </head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-<body>
+    .box {
+        background-color: aliceblue;
+        width: 330px;
+    }
+    fieldset {
+        border: 3px solid #2079B0;
+        height: 649px;
+    }
 
+    #logo {
+        width: 300px;
+        height: 75px;
+    }
 
-  <div class=e268_27><img src="https://github.com/Isabila2/ClinicaMedPlus.github.io/blob/main/images/Logoo.png?raw=true"
-      class="logo1"></div>
+    #submit {
+        width: 300px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: #93D1FF;
+        margin-top: 50px;
+    }
 
-  <div class="e268_28"></div>
-  <div class="e268_29"><input placeholder="E-mail" type="text" />
-  </div>
-  <div class="e268_30"><input placeholder="Senha" type="text" />
-
-  </div>
-  <div class="e268_31">
-
-
-  </div>
-  <div class="e268_32"><img
-      src="https://github.com/Isabila2/ClinicaMedPlus.github.io/blob/main/images/google.png?raw=true" class="logo2">
-  </div><span class="e268_33"></span><span class="e268_34"></span><span class="e268_35">ENTRAR</span><span
-    class="e268_36">ESQUECI MINHA SENHA</span><span class="e268_37">CRIE UMA CONTA
-  </span><span class="e268_38">OU ENTRE COM</span><span class="e268_39">Manter-se conectado?</span>
-  <span class="e268_41">GOOGLE</span><span class="e268_37">CRIE UMA CONTA</span>
-  <div class="e268_42"></div>
-  <div class="e268_43"></div>
-  <div class="e268_44"></div>
-  <div class="e268_45"></div>
-  <div class="e297_156">
-
-  </div>
-
-
-</body>
-
-
-</html>
-=======
-        for (var i = 0; i < usuarios.length; i++) {
-          if (usuarios[i].usuario === usuario && usuarios[i].senha === senha) {
-            alert("Login efetuado com sucesso!");
-            window.location.href = "https://isabila2.github.io/ClinicaMedPlus.github.io/";
-            return;
-          }
-        }
-        alert("Usuário e/ou senha incorretos.");
+    .crie {
+        text-align: center;
+        color: #93D1FF;
+        margin-top: 139px;
+    }
+    
+</style>
+<script>
+    // Exemplo de arquivo JSON com usuários e senhas
+    const users = {
+      "paulo@gmail.com": "202020",
+      "isabella@gmail.com": "303030",
+      "joaovictor@gmail.com": "404040"
+    };
+  
+    // Função de login
+    function login() {
+      // Obter os valores do formulário
+      var username = document.getElementById("email").value;
+      var password = document.getElementById("senha").value;
+  
+      // Verificar se o usuário existe e a senha está correta
+      if (users.hasOwnProperty(username) && users[username] === password) {
+        // Login bem-sucedido
+        alert("Login bem-sucedido!");
+        // Redirecionar para a página principal, por exemplo:
+        window.close;
+      } else {
+        // Credenciais inválidas
+        alert("Usuário ou senha inválidos.");
       }
-    </script>
+    }
+  </script>
+  
+  <body>
+    <div class="box">
+      <form action="">
+        <fieldset class="barraemvolta">
+          <img src="/assets/Logoo.png" alt="" id="logo">
+          <br>
+          <br>
+  
+          <div class="inputbox">
+            <input type="email" name="email" id="email" placeholder="Email" class="inputUser" required>
+            <label for="email"></label>
+          </div>
+          <br>
+          <br>
+          <div class="inputbox">
+            <input type="text" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
+            <label for="senha"></label>
+          </div>
+          <br>
+          <br>
+          <p>Selecione seu tipo de conta</p>
+          <input type="radio" id="medico" name="conta" value="medico" required>
+          <label for="medico">Médico</label>
+          <br>
+          <input type="radio" id="paciente" name="conta" value="paciente" required>
+          <label for="paciente">Paciente</label>
+          <br>
+          <br>
+  
+          <div class="inputbox">
+            <input type="checkbox" name="manter" id="manter" class="manter">
+            <label for="manter"><b>Manter-se conectado</b></label>
+          </div>
+          <br>
+          <br>
+  
+          <input type="button" name="submit" id="submit" onclick="login()" value="Entrar">
+          <br>
+          <br>
+          <div class="crie">
+            <a href="/formulario.html">Crie uma conta</a>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </body>
+  
 </html>
->>>>>>> 99980abd917ccc4b0a26d5d4e40603b76012589d
+
+<!-- // Função para redirecionar o usuário para a página selecionada
+function redirecionar() {
+  var checkbox1 = document.getElementById("checkbox1");
+  var checkbox2 = document.getElementById("checkbox2");
+  var checkbox3 = document.getElementById("checkbox3");
+
+  if (checkbox1.checked) {
+    // Redirecionar para a página 1
+    window.location.href = "pagina1.html";
+  } else if (checkbox2.checked) {
+    // Redirecionar para a página 2
+    window.location.href = "pagina2.html";
+  } else if (checkbox3.checked) {
+    // Redirecionar para a página 3
+    window.location.href = "pagina3.html";
+  }
+} -->

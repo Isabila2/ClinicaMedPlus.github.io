@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box {
+        background-color: aliceblue;
+        width: 330px;
+    }
+    fieldset {
+        border: 3px solid #2079B0;
+    }
+
+    #logo {
+        width: 300px;
+        height: 75px;
+    }
+
+    #submit {
+        width: 300px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: #93D1FF;
+    }
+
+    .jatem {
+        text-align: center;
+        color: #93D1FF;
+        margin-top: 16px;
+    }
+</style>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset class="barraemvolta">
+                 <img src="/assets/Logoo.png" alt="" id="logo">
+                 
+            <br>
+            <br>
+                
+            
+            <div class="inputbox">
+                <input type="text" name="nome" id="nome" placeholder="Nome completo" class="inputUser" required>
+                <label for="nome"></label>
+            </div>
+            <br>
+            <br>
+            <div class="inputbox">
+                <input type="email" name="email" id="email" placeholder="Email" class="inputUser" required>
+                <label for="email"></label>
+            </div>
+<br>
+<br>
+            <div class="inputbox">
+                <input type="text" name="cpf" id="cpf" placeholder="CPF" class="inputUser" required>
+                <label for="cpf"></label>
+            </div>
+            <br>
+            <br>
+            <div class="inputbox">
+                <input type="text" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
+                <label for="senha"></label>
+            </div>
+            <p>Selecione seu tipo de conta</p>
+            <input type="radio" id="medico" name="conta" value="medico" required>
+            <label for="medico">Médico</label>
+            <br>
+            <input type="radio" id="paciente" name="conta" value="paciente" required>
+            <label for="paciente">Paciente</label>
+<br>
+<br>
+            <div class="inputbox">
+                <label for="datanasc"><b>Data de nascimento</b></label>
+                <br></br>
+                <input type="date" name="data" id="datanasc" class="nascimento"  required>
+                
+            </div>
+            <br>
+<br>
+
+<div class="inputbox">
+    <input type="checkbox" name="manter" id="manter" class="manter"  required>
+    <label for="manter"><b>Manter-se conectado</b></label>
+</div>
+<br>
+<br>
+
+            <input type="submit" name="submit" id="submit" value="Entrar">
+            <br>
+            <br>
+            <div class="jatem">
+                <a href="/login.html">Já tem uma conta?</a>
+
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
