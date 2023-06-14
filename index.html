@@ -21,12 +21,12 @@
                 <img src="images/logoespee.png" height="40%" width="300px" button id="botlogo" onclick="voltar()">
                 
         
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Home</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Exames</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="botoes">Consultas</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/cirurgia.html"><button class="botoes">Cirurgias</button></a>
-<a href="#planos"><button class="botoes">Planos</button></a>
-<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="medico()">
+<a href="/"><button class="botoes">Home</button></a>
+<a href="/exames.html"><button class="botoes">Exames</button></a>
+<a href="/Consultas2.html"><button class="botoes">Consultas</button></a>
+<a href="/cirurgia.html"><button class="botoes">Cirurgias</button></a>
+<a href="/planos.html"><button class="botoes">Planos</button></a>
+<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="OpenPopUp()">
 </div>
 </header>
 <br>
@@ -41,12 +41,12 @@
 
 <script>
 function voltar(){event.preventDefault();
-    window.location.href="https://isabila2.github.io/ClinicaMedPlus.github.io/";
+    window.location.href="/";
 
   }
 
   function login(){event.preventDefault();
-    window.location.href="https://isabila2.github.io/ClinicaMedPlus.github.io/login.html";
+    window.location.href="/login.html";
 
   }
 
@@ -68,8 +68,8 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 } 
 
-function medico(){
-    window.alert("Você já está logado!");
+function OpenPopUp(){
+    window.open('opcoeslog.html', 'popup','width=459,height=570');
 }
 
 </script>
@@ -118,16 +118,16 @@ function medico(){
 
        <img src="images/bemvindo.png" id="bemvindo">
        <img src="images/encontre.png" id="encontre">
-       <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades.html"><button class="botone">Especialidades</button></a>
+       <a href="/especialidades.html"><button class="botone">Especialidades</button></a>
         </main>
         <br><br>
       <!--meio-->
       <br>
             <div class="meio">
                 <p class="guia">Guia MED+</p>
-              <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades.html">  <img  src="images/exp1.png" id="exp1" > </a>
-                <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html" ><img src="images/exp2.png" id="exp2"></a>
-                <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/login"><img src="images/exp3.png" id="exp3"></a>
+              <a href="/especialidades.html">  <img  src="images/exp1.png" id="exp1" > </a>
+                <a href="/Consultas2.html" ><img src="images/exp2.png" id="exp2"></a>
+                <a href="/opcoeslog.html"><img src="images/exp3.png" id="exp3"></a>
                 <a href="#unidades"><img src="images/exp4.png" id="exp4"></a>
             </div>
             <br><br><br>
@@ -139,14 +139,14 @@ function medico(){
                     <img src="images/uni1.png" id="uni1">
                     <h1 id="tituni">Unidade Nova Odessa</h1>
                     <p id="textuni">R. dos Jacarandás, 100 - Jardim das Palmeiras, Nova Odessa - SP</p>
-                    <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="butuni">AGENDE</button></a>
+                    <a href="/Consultas2.html"><button class="butuni">AGENDE</button></a>
 
                 </div>
                 <div class="card2">
                     <img src="images/uni2.png" id="uni2">
                     <h1 id="tituni">Unidade Sumaré</h1>
                     <p id="textuni">Av. Rebouças, 3965 - Jardim São Carlos, Sumaré - SP</p>
-                    <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="butuni">AGENDE</button></a>
+                    <a href="/Consultas2.html"><button class="butuni">AGENDE</button></a>
                 </div>
                 <img src="images/decouni2.png" id="decouni2">
             </div>
