@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <link rel="stylesheet" href="index.css">
     <link rel="Logoo" href="images/Logoo.png">
     <title>Med+</title>
+
 </head>
 
 <body>
@@ -21,15 +23,20 @@
         
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Home</button></a>
 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Exames</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/consultas"><button class="botoes">Consultas</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Cirurgias</button></a>
-<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/"><button class="botoes">Planos</button></a>
-<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="login()">
+<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="botoes">Consultas</button></a>
+<a href="https://isabila2.github.io/ClinicaMedPlus.github.io/cirurgia.html"><button class="botoes">Cirurgias</button></a>
+<a href="#planos"><button class="botoes">Planos</button></a>
+<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="medico()">
 </div>
 </header>
+<br>
+<br>
+<br>
+<br>
 
 
   
+
 
 
 <script>
@@ -39,7 +46,7 @@ function voltar(){event.preventDefault();
   }
 
   function login(){event.preventDefault();
-    window.location.href="";
+    window.location.href="https://isabila2.github.io/ClinicaMedPlus.github.io/login.html";
 
   }
 
@@ -61,6 +68,9 @@ function nextImage(){
     document.getElementById("radio"+count).checked = true;
 } 
 
+function medico(){
+    window.alert("Você já está logado!");
+}
 
 </script>
     <!-- Corpo -->
@@ -76,7 +86,7 @@ function nextImage(){
         <input type="radio" name="radio-btn" id="radio4">
 
         <div class="slide first">
-            <img src="images/homesel1.png" alt="Imagem 1">
+           <a href="#planos"> <img src="images/homesel1.png" alt="Imagem 1" ></a>
         </div>
         <div class="slide">
             <img src="images/homesel2.png" alt="Imagem 2">
@@ -110,29 +120,68 @@ function nextImage(){
        <img src="images/encontre.png" id="encontre">
        <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades.html"><button class="botone">Especialidades</button></a>
         </main>
-        
+        <br><br>
       <!--meio-->
-      
+      <br>
             <div class="meio">
+                <p class="guia">Guia MED+</p>
               <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/especialidades.html">  <img  src="images/exp1.png" id="exp1" > </a>
-                <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/consultas.html" ><img src="images/exp2.png" id="exp2"></a>
+                <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html" ><img src="images/exp2.png" id="exp2"></a>
                 <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/login"><img src="images/exp3.png" id="exp3"></a>
-                <a href=""><img src="images/exp4.png" id="exp4"></a>
+                <a href="#unidades"><img src="images/exp4.png" id="exp4"></a>
             </div>
+            <br><br><br>
+            <p class="titulouni" id="unidades">UNIDADES</p>
+            <div class="unidades" >
+                <img src="images/decouni1.png" id="decouni1">
+                
+                <div class="card">
+                    <img src="images/uni1.png" id="uni1">
+                    <h1 id="tituni">Unidade Nova Odessa</h1>
+                    <p id="textuni">R. dos Jacarandás, 100 - Jardim das Palmeiras, Nova Odessa - SP</p>
+                    <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="butuni">AGENDE</button></a>
 
-    
-   
-   
+                </div>
+                <div class="card2">
+                    <img src="images/uni2.png" id="uni2">
+                    <h1 id="tituni">Unidade Sumaré</h1>
+                    <p id="textuni">Av. Rebouças, 3965 - Jardim São Carlos, Sumaré - SP</p>
+                    <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/Consultas2.html"><button class="butuni">AGENDE</button></a>
+                </div>
+                <img src="images/decouni2.png" id="decouni2">
+            </div>
+<br><br><br>
+<div class="blur">
+            <div class="deco" id="planos">
+                <img src="images/melhores.png" id="decora">
+                <img src="images/med+1.png" id="pla1">
+                <img src="images/med+2.png" id="pla2">
+                <img src="images/med+3.png" id="pla3">
+
+            </div>
+        </div>
+            <footer>
+                <div class="final">
+                
+                    <h1 id="finale">Central de Atendimentos MED+</h1>
+                    <h2 id="finale2">(19)99378-4877 - Sumaré</h2>
+                    <h2 id="finale2">(19)99439-2278 - Nova Odessa</h2>
+                    
+                    <h2 id="direitos">© 2023 Clínica MED+. Todos os Direitos Reservados.</h2>
+                    <div class="redesocial">
+                    <h1 id="siga">Siga nossas redes sociais</h1>
+                    <h2 id="redes">Instagram</h2>
+                    <h2 id="redes">Facebook</h2>
+                </div>
+                <h1 id="baixee">Baixe nosso aplicativo</h1>
+                <img src="images/baixe.png" id="baixe1">
+                <img src="images/baixe2.png" id="baixe2">
+                </div>
+            </footer>
+                 
+      
 </body>
-<footer>
-    <br>
-    <div class="sobrenos">
-   
-</div>
-      <div class="rodape">
-        
-    </div>
-</footer>
+
 
 </html>
 

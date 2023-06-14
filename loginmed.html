@@ -12,7 +12,8 @@
     }
 
     .box {
-       
+        background-color: rgb(255, 255, 255);
+        width: 330px;
     }
     fieldset {
         border: 3px solid #ffffff;
@@ -74,18 +75,13 @@
         margin-left: -50px;
         
     }
-    #crie{
-      margin-left: -110px;
-      margin-bottom: -30px;
-      
-    }
 </style>
 <script>
     // Exemplo de arquivo JSON com usuários e senhas
     const users = {
-      "paulo@gmail.com": "202020",
-      "isabella@gmail.com": "303030",
-      "joaovictor@gmail.com": "404040"
+      "alvaresbarreto@gmail.com": "202020",
+      "allinebarros@gmail.com": "303030",
+      "fernandahira@gmail.com": "404040"
     };
   
     // Função de login
@@ -98,6 +94,7 @@
       if (users.hasOwnProperty(username) && users[username] === password) {
         // Login bem-sucedido
         alert("Login bem-sucedido!");
+        window.open('https://isabila2.github.io/ClinicaMedPlus.github.io/homemedico.html', '_blank');
         // Redirecionar para a página principal, por exemplo:
         window.close;
       } else {
@@ -138,13 +135,11 @@
           <br>
           <br>
   
- 
-
           <input type="button" name="submit" id="submit" onclick="login()" value="Entrar">
           <br>
           <br>
           <div class="crie">
-            <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/formulario.html" id="crie">Crie uma conta</a>
+            <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/opcoeslog.html" id="voltar">Voltar</a>
           </div>
         </fieldset>
       </form>
