@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="forms.css">
 </head>
 <style>
-     body{
+    body{
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -21,8 +21,8 @@
     }
 
     #logo {
-        width: 450px;
-        height: 140px;
+        width: 380px;
+        height: 130px;
         margin-left: 10px;
     }
 
@@ -35,7 +35,7 @@
         width: 160px;
         font-family: Mate SC;
         font-size: larger;
-        margin-left: 120px;
+        margin-left: 100px;
         
         
     }
@@ -56,7 +56,7 @@
     }
     #email{
         background-color: #eceeef;
-        width: 430px;
+        width: 390px;
         height: 30px;
         border-radius: 10px;
         border: 1px solid #a8a8a9;
@@ -64,7 +64,7 @@
 
     #senha{
         background-color: #eceeef;
-        width: 430px;
+        width: 390px;
         height: 30px;
         border-radius: 10px;
         border:1px solid #a8a8a9 ;
@@ -74,6 +74,10 @@
     #voltar{
         margin-left: -50px;
         
+    }
+    #crie{
+      margin-left: -50px;
+      
     }
 </style>
 <script>
@@ -120,7 +124,7 @@
           <br>
           <br>
           <div class="inputbox">
-            <input type="passeword" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
+            <input type="password" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
             <label for="senha"></label>
           </div>
           <br>
@@ -134,11 +138,13 @@
           <br>
           <br>
   
+ 
+
           <input type="button" name="submit" id="submit" onclick="login()" value="Entrar">
           <br>
           <br>
           <div class="crie">
-            <a href="/formulario.html">Crie uma conta</a>
+            <a href="/formulario.html" id="crie">Crie uma conta</a>
           </div>
         </fieldset>
       </form>
