@@ -7,30 +7,46 @@
     <link rel="stylesheet" href="forms.css">
 </head>
 <style>
-    body{
+     body{
         font-family: Arial, Helvetica, sans-serif;
     }
 
     .box {
-        background-color: aliceblue;
+        background-color: rgb(255, 255, 255);
         width: 330px;
     }
     fieldset {
-        border: 3px solid #2079B0;
+        border: 3px solid #ffffff;
         height: 649px;
     }
 
     #logo {
-        width: 300px;
-        height: 75px;
+        width: 450px;
+        height: 140px;
+        margin-left: 10px;
     }
 
+   
     #submit {
-        width: 300px;
-        height: 50px;
-        border-radius: 15px;
         background-color: #93D1FF;
-        margin-top: 50px;
+        border-radius: 40px;
+        border-color: #ffffff;
+        height: 50px;
+        width: 160px;
+        font-family: Mate SC;
+        font-size: larger;
+        margin-left: 120px;
+        
+        
+    }
+       
+
+    #submit:hover{
+      background-color: #93D1FF;
+      box-shadow: 5px 2px #4b93ca;
+      transform: scale(1.1);
+      transition: all 0.5s;
+      
     }
 
     .crie {
@@ -38,7 +54,27 @@
         color: #93D1FF;
         margin-top: 139px;
     }
-    
+    #email{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid #a8a8a9;
+    }
+
+    #senha{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border:1px solid #a8a8a9 ;
+
+    }
+
+    #voltar{
+        margin-left: -50px;
+        
+    }
 </style>
 <script>
     // Exemplo de arquivo JSON com usuários e senhas
@@ -73,7 +109,7 @@
     <div class="box">
       <form action="">
         <fieldset class="barraemvolta">
-          <img src="/assets/Logoo.png" alt="" id="logo">
+          <img src="images/logo_removebg_preview_1.png" alt="" id="logo">
           <br>
           <br>
   
@@ -84,7 +120,7 @@
           <br>
           <br>
           <div class="inputbox">
-            <input type="text" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
+            <input type="passeword" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
             <label for="senha"></label>
           </div>
           <br>

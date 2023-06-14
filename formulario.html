@@ -12,19 +12,21 @@
     }
 
     .box {
-        background-color: rgb(251, 251, 251);
-        width: 320px;
+        background-color: rgb(255, 255, 255);
+        width: 330px;
     }
     fieldset {
         border: 3px solid #ffffff;
-        margin-left: 15px;
+        height: 649px;
     }
 
     #logo {
-        width: 300px;
-        height: 110px;
+        width: 450px;
+        height: 140px;
+        margin-left: 10px;
     }
 
+   
     #submit {
         background-color: #93D1FF;
         border-radius: 40px;
@@ -33,6 +35,7 @@
         width: 160px;
         font-family: Mate SC;
         font-size: larger;
+        margin-left: 120px;
         
         
     }
@@ -45,14 +48,56 @@
       transition: all 0.5s;
       
     }
-    .jatem {
+
+    .crie {
         text-align: center;
         color: #93D1FF;
-        margin-top: 16px;
+        margin-top: 139px;
     }
-    .inputUser{
+    #email{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid #a8a8a9;
+    }
+
+    #senha{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border:1px solid #a8a8a9 ;
+
+    }
+
+    #voltar{
+        margin-left: -50px;
         
     }
+
+    #nome{
+        background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border:1px solid #a8a8a9 ;
+       
+
+
+    }
+
+    #cpf{
+         background-color: #eceeef;
+        width: 430px;
+        height: 30px;
+        border-radius: 10px;
+        border:1px solid #a8a8a9 ;
+
+    }
+
+    
+
 </style>
 <body>
     <div class="box">
@@ -86,13 +131,7 @@
                 <input type="text" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
                 <label for="senha"></label>
             </div>
-            <p>Selecione seu tipo de conta</p>
-            <input type="radio" id="medico" name="conta" value="medico" required>
-            <label for="medico">Médico</label>
-            <br>
-            <input type="radio" id="paciente" name="conta" value="paciente" required>
-            <label for="paciente">Paciente</label>
-<br>
+            
 <br>
             <div class="inputbox">
                 <label for="datanasc"><b>Data de nascimento</b></label>
