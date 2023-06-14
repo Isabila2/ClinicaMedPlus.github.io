@@ -28,7 +28,7 @@
 <a href="#final"><button class="botoes">Contatos</button></a>
 
 
-<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="OpenPopUp()">
+<img src="images/iconelogin.png" height="80px" width="80px" id="foto2" button id="botlogi" onclick="medico()">
 </div>
 </header>
 <br>
@@ -47,10 +47,7 @@ function voltar(){event.preventDefault();
 
   }
 
-  function login(){event.preventDefault();
-    window.location.href="";
-
-  }
+  
 
 //Carrossel//
 
@@ -69,7 +66,9 @@ function nextImage(){
 
     document.getElementById("radio"+count).checked = true;
 } 
-
+ function medico(){
+    window.alert('Você já está logado!')
+ }
 
 </script>
     <!-- Corpo -->

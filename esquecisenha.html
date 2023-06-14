@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Médico - Med+</title>
+    <title>Esqueci minha senha</title>
     <link rel="stylesheet" href="forms.css">
 </head>
 <style>
@@ -12,8 +12,7 @@
     }
 
     .box {
-        background-color: rgb(255, 255, 255);
-        width: 330px;
+       
     }
     fieldset {
         border: 3px solid #ffffff;
@@ -75,31 +74,34 @@
         margin-left: -50px;
         
     }
+    #crie{
+      margin-left: -110px;
+      
+      
+    }
 </style>
 <script>
-    // Exemplo de arquivo JSON com usuários e senhas
-    const users = {
-      "alvaresbarreto@gmail.com": "202020",
-      "allinebarros@gmail.com": "303030",
-      "fernandahira@gmail.com": "404040"
-    };
+   
   
-    // Função de login
+  
+  
     function login() {
       // Obter os valores do formulário
-      var username = document.getElementById("email").value;
-      var password = document.getElementById("senha").value;
+      var email = document.getElementById("email");
+      var abc = (email).value;
+      var senha = document.getElementById("senha");
+      var def = (senha).value;
   
       // Verificar se o usuário existe e a senha está correta
-      if (users.hasOwnProperty(username) && users[username] === password) {
+      if (abc == def) {
         // Login bem-sucedido
-        alert("Login bem-sucedido!");
-        window.open('https://isabila2.github.io/ClinicaMedPlus.github.io/homemedico.html', '_blank');
+    
+        window.location.href="https://isabila2.github.io/ClinicaMedPlus.github.io/login.html";
         // Redirecionar para a página principal, por exemplo:
         window.close;
       } else {
         // Credenciais inválidas
-        alert("Usuário ou senha inválidos.");
+        alert("Senhas não compatíveis!");
       }
     }
 
@@ -115,13 +117,13 @@
           <br>
   
           <div class="inputbox">
-            <input type="email" name="email" id="email" placeholder="Email" class="inputUser" required>
+            <input type="password" name="email" id="email" placeholder="Nova senha" class="inputUser" required>
             <label for="email"></label>
           </div>
           <br>
           <br>
           <div class="inputbox">
-            <input type="password" name="senha" id="senha" placeholder="Senha" class="inputUser" required>
+            <input type="password" name="senha" id="senha" placeholder="Confirmar senha" class="inputUser" required>
             <label for="senha"></label>
           </div>
           <br>
@@ -135,11 +137,13 @@
           <br>
           <br>
   
-          <input type="button" name="submit" id="submit" onclick="login()" value="Entrar">
+ 
+
+          <input  type="button" name="submit" id="submit" onclick="login()" value="Fazer login">
           <br>
           <br>
           <div class="crie">
-            <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/opcoeslog.html" id="voltar">Voltar</a>
+            <a href="https://isabila2.github.io/ClinicaMedPlus.github.io/formulario.html" id="crie">Crie uma conta</a>
           </div>
         </fieldset>
       </form>
